@@ -1,13 +1,21 @@
 {
-  "name": "@zzf/utils",
-  "version": "1.0.0",
-  "description": "项目工具包 - zhouzefu@126.com",
-  "main": "src/index.js",
-  "type": "module",
-  "scripts": {
-    "publish": "npm publish --access restricted"
-  },
-  "keywords": ["utils","zhouzefu@126.com","zhouzefu"],
+  "name": "z_utils",
+  "version": "0.0.0",
+  "description": "个人项目开发工具包 - zhouzefu@126.com",
   "author": "zhouzefu@126.com",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "publish": "pnpm publish --access=public"
+  },
+  "keywords": [
+    "z_utils",
+    "utils",
+    "zhouzefu@126.com",
+    "zhouzefu"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhouzefu/z_utils.git"
+  }
 }
